@@ -1,0 +1,1 @@
+function joseFunction(){alert("Hi, I die")}var dato = [  {    x: ['giraffes', 'orangutans', 'monkeys'],    y: [20, 14, 23],    type: 'bar'  }];joseFunc();Plotly.newPlot('myDiv', dato);

@@ -1,0 +1,34 @@
+<head>
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>
+</head>
+
+<body>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+</body>
+
+
+<h1>Hello Bitches!</h1>
+
+Let's take a look at the data 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{{data|tojson}}
+
+
+{% block javascript %}
+<script src = "{{ url_for('static', filename = 'script1.js')}}">
+</script>
+
+
+{% endblock %}
+<br>
+<br>
+<br>
+<br>
+
+<button onClick="joseFunction()">Click me!</button>
