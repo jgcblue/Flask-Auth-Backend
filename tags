@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Api	jwebback_from_apache_intact_save_04042023/app.py	/^from flask_restful import Api, Resource, reqparse$/;"	i
+BytesIO	jwebback_from_apache_intact_save_04042023/app.py	/^from io import StringIO, BytesIO$/;"	i
+CORS	jwebback_from_apache_intact_save_04042023/app.py	/^from flask_cors import CORS, cross_origin$/;"	i
+CrimeProj	jwebback_from_apache_intact_save_04042023/app.py	/^class CrimeProj(Resource):$/;"	c
+Download	jwebback_from_apache_intact_save_04042023/app.py	/^class Download(Resource):$/;"	c
+Figure	jwebback_from_apache_intact_save_04042023/app.py	/^from matplotlib.figure import Figure$/;"	i
+FigureCanvas	jwebback_from_apache_intact_save_04042023/app.py	/^from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas$/;"	i
+Flask	jwebback_from_apache_intact_save_04042023/app.py	/^from flask import Flask, jsonify, send_file, Response$/;"	i
+LinearRegression	jwebback_from_apache_intact_save_04042023/app.py	/^from sklearn.linear_model import LinearRegression$/;"	i
+MathDownload	jwebback_from_apache_intact_save_04042023/app.py	/^class MathDownload(Resource):$/;"	c
+Resource	jwebback_from_apache_intact_save_04042023/app.py	/^from flask_restful import Api, Resource, reqparse$/;"	i
+Response	jwebback_from_apache_intact_save_04042023/app.py	/^from flask import Flask, jsonify, send_file, Response$/;"	i
+StringIO	jwebback_from_apache_intact_save_04042023/app.py	/^from io import StringIO, BytesIO$/;"	i
+Time	jwebback_from_apache_intact_save_04042023/app.py	/^class Time(Resource):$/;"	c
+User	jwebback_from_apache_intact_save_04042023/app.py	/^class User(Resource):$/;"	c
+User	jwebback_from_apache_intact_save_04042023/app.py	/^class User(db.Model):$/;"	c
+UserLogin	jwebback_from_apache_intact_save_04042023/app.py	/^class UserLogin(Resource):$/;"	c
+UserRegister	jwebback_from_apache_intact_save_04042023/app.py	/^class UserRegister(Resource):$/;"	c
+api	jwebback_from_apache_intact_save_04042023/app.py	/^api = Api(app)$/;"	v
+app	jwebback_from_apache_intact_save_04042023/app.py	/^app = flask.Flask(__name__)$/;"	v
+base64	jwebback_from_apache_intact_save_04042023/app.py	/^import base64$/;"	i
+combinations	jwebback_from_apache_intact_save_04042023/app.py	/^from itertools import combinations$/;"	i
+cors	jwebback_from_apache_intact_save_04042023/app.py	/^cors = CORS(app, resource={$/;"	v
+cross_origin	jwebback_from_apache_intact_save_04042023/app.py	/^from flask_cors import CORS, cross_origin$/;"	i
+csvFunc	jwebback_from_apache_intact_save_04042023/app.py	/^def csvFunc():$/;"	f
+db	jwebback_from_apache_intact_save_04042023/app.py	/^db = flask_sqlalchemy.SQLAlchemy()$/;"	v
+dfList	jwebback_from_apache_intact_save_04042023/app.py	/^def dfList(yFrame):$/;"	f
+flask	jwebback_from_apache_intact_save_04042023/app.py	/^import flask$/;"	i
+flask_praetorian	jwebback_from_apache_intact_save_04042023/app.py	/^import flask_praetorian$/;"	i
+flask_sqlalchemy	jwebback_from_apache_intact_save_04042023/app.py	/^import flask_sqlalchemy$/;"	i
+get	jwebback_from_apache_intact_save_04042023/app.py	/^    def get(self):# with response$/;"	m	class:CrimeProj
+get	jwebback_from_apache_intact_save_04042023/app.py	/^    def get(self):$/;"	m	class:Time
+get	jwebback_from_apache_intact_save_04042023/app.py	/^    def get(self):$/;"	m	class:User
+guard	jwebback_from_apache_intact_save_04042023/app.py	/^guard = flask_praetorian.Praetorian()$/;"	v
+id	jwebback_from_apache_intact_save_04042023/app.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	v	class:User
+identify	jwebback_from_apache_intact_save_04042023/app.py	/^    def identify(cls, id):$/;"	m	class:User
+identity	jwebback_from_apache_intact_save_04042023/app.py	/^    def identity(self):$/;"	m	class:User
+is_active	jwebback_from_apache_intact_save_04042023/app.py	/^    is_active = db.Column(db.Boolean, default=True, server_default='true')$/;"	v	class:User
+is_valid	jwebback_from_apache_intact_save_04042023/app.py	/^    def is_valid(self):$/;"	m	class:User
+json	jwebback_from_apache_intact_save_04042023/app.py	/^import json$/;"	i
+jsonify	jwebback_from_apache_intact_save_04042023/app.py	/^from flask import Flask, jsonify, send_file, Response$/;"	i
+listToDict	jwebback_from_apache_intact_save_04042023/app.py	/^def listToDict(yourList):$/;"	f
+lookup	jwebback_from_apache_intact_save_04042023/app.py	/^    def lookup(cls, username):$/;"	m	class:User
+matplotlib	jwebback_from_apache_intact_save_04042023/app.py	/^import matplotlib$/;"	i
+matplotlib	jwebback_from_apache_intact_save_04042023/app.py	/^import matplotlib.pyplot as plt$/;"	i
+password	jwebback_from_apache_intact_save_04042023/app.py	/^    password = db.Column(db.Text)$/;"	v	class:User
+pd	jwebback_from_apache_intact_save_04042023/app.py	/^import pandas as pd$/;"	i
+plotterTuples	jwebback_from_apache_intact_save_04042023/app.py	/^def plotterTuples(x):$/;"	f
+plt	jwebback_from_apache_intact_save_04042023/app.py	/^import matplotlib.pyplot as plt$/;"	i
+post	jwebback_from_apache_intact_save_04042023/app.py	/^    def post(self):#from yasoob$/;"	m	class:UserRegister
+post	jwebback_from_apache_intact_save_04042023/app.py	/^    def post(self):$/;"	m	class:Download
+post	jwebback_from_apache_intact_save_04042023/app.py	/^    def post(self):$/;"	m	class:User
+post	jwebback_from_apache_intact_save_04042023/app.py	/^    def post(self):$/;"	m	class:UserLogin
+post	jwebback_from_apache_intact_save_04042023/app.py	/^    def post(self,filename):$/;"	m	class:MathDownload
+random	jwebback_from_apache_intact_save_04042023/app.py	/^import random$/;"	i
+readCsvFunction	jwebback_from_apache_intact_save_04042023/app.py	/^def readCsvFunction():$/;"	f
+readCsvFunctionNow	jwebback_from_apache_intact_save_04042023/app.py	/^def readCsvFunctionNow():$/;"	f
+reqparse	jwebback_from_apache_intact_save_04042023/app.py	/^from flask_restful import Api, Resource, reqparse$/;"	i
+rolenames	jwebback_from_apache_intact_save_04042023/app.py	/^    def rolenames(self):$/;"	m	class:User
+roles	jwebback_from_apache_intact_save_04042023/app.py	/^    roles = db.Column(db.Text)$/;"	v	class:User
+runPlotterTuples	jwebback_from_apache_intact_save_04042023/app.py	/^def runPlotterTuples():$/;"	f
+safe_str_cmp	jwebback_from_apache_intact_save_04042023/app.py	/^from werkzeug.security import safe_str_cmp$/;"	i
+send_file	jwebback_from_apache_intact_save_04042023/app.py	/^from flask import Flask, jsonify, send_file, Response$/;"	i
+sns	jwebback_from_apache_intact_save_04042023/app.py	/^import seaborn as sns$/;"	i
+time	jwebback_from_apache_intact_save_04042023/app.py	/^import time$/;"	i
+train_test_split	jwebback_from_apache_intact_save_04042023/app.py	/^from sklearn.model_selection import train_test_split$/;"	i
+username	jwebback_from_apache_intact_save_04042023/app.py	/^    username = db.Column(db.Text, unique=True)$/;"	v	class:User
